@@ -64,7 +64,7 @@
 }
 .hero .contanier .div-img{
     position: relative;
-    width: 34%;
+    width: 30%;
     bottom: 30px;
     margin-right: 50px;
 }
@@ -74,7 +74,7 @@
 
 .hero .contanier .div-text h4{
     color: #888;
-    font-size: 22px;
+    font-size: 20px;
 }
 .hero .contanier .div-text h1{
     color: var(--Textwhite);
@@ -90,20 +90,20 @@
 .hero .contanier .div-text p{
     color: var(--Textwhite);
     line-height: 1.8;
-    margin: 20px 0 40px;
+    margin: 30px 0 40px;
 }
 .hero .contanier .div-text .btn{
-    color: #fff;
-    background: #23a3fe;
-    padding: 15px 30px;
-    border: 1px solid #23a3fe;
+    color: #797c80c0;
+    background: #ecedf1e3;
+    padding: 20px 20px;
+    border: 1px solid #e0e8ee;
     position: relative;
     top: 0;
     transition: 0.3s;
 }
 .hero .contanier .div-text.btn:hover{
     top: -8px;
-    box-shadow: 0 0 16px #23a3fe;
+    box-shadow: 0 0 16px #e3e5e7;
 }
 
 .social-icon{

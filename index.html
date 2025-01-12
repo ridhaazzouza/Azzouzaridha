@@ -10,61 +10,92 @@
     
 </head>
 <body >
-    <section class="hero">
-
-        <header>
-            <nav>
-
-                <a href="#" class="logo"><span>Ridha</span>Azzouza</a>
-
-                <div class="nav-links">
-                    <a href="#">Home</a>
-                    <a href="#">About</a>
-                    <a href="#">Services</a>
-                    <a href="#">profil</a>
-                    <a href="#">contact</a>
-                </div>
-
-                <span><i class="fa-solid fa-sun btn-mode"></i></span>
+    <header class="header">
+        <a href="#" class="logo"><span>Ridha</span>Azzouza</a>
+        <nav class="navbar">
+                    <a href="#" class="active">portfolio</a>
+                    <a href="#">services</a>
+                    <a href="#">experience</a>
+                    <a href="#">projects</a>
+                    <a href="#">portfolio</a>
             </nav>
-        </header>
 
-        <div class="contanier">
-        <div class="div-text">
-            <h4>Hello my name is</h4>
-            <h1>Azzouza Ridha</h1>
-            <span>Telecommunication Systeme Engineer and web developer</span>
-            <p>Telecommunication systeme engineer specializing in web design and network solution management.</p>
-            
-            <a href="cv azzouza ridha (1).pdf" class="btn"  download="My-cv.pdf"><button> download cv</button></a>
-             
-        </div>
+            <a href="#" class="contact"> contact Me</a>
+    </header>
 
-        <div class="div-img">
-            <img src="hero.jpg" class="">
-            
-            <div class="social-icon">
-                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
-                <a href="#"><i class="fa-brands fa-instagram"></i></a>
-                <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+    <section class="home">
+        <div class="home-content">
+            <h3>Hi</h3>
 
+            <h1>I'm <span>Ridha<br></span> telecommunication systeme engineer</h1>
+            <p>My goal as a Telelcommunication Systems Engineer is to contribute to the development and delivery of advanced communications solutions that ensure high efficiency and continuity of performance. I seek to use my experience in designing, implementing and maintaining modern communications networks to improve the quality of communication and provide comprehensive coverage that meets customer needs and supports the digital transformation of companies. I aspire to work with a professional team in an environment that encourages innovation and continuous growth to achieve long-term strategic goals.
+            </p>
+
+            <div class="btn-box">
+                <button class="btn-1">hire me</button>
+                <button class="btn-2">experience</button>
             </div>
         </div>
+        <div class="img-box">
+            <img src="hero.jpg" alt="">
         </div>
     </section>
-    <script>
-        var btnMode = document.querySelector('.btn-mode');
-        btnMode.onclick = function(){
-            document.body.classList.toggle("white-theme")
-            btnMode.classList.toggle("fa-moon")
-        }
-         src="http://cdn.jsdelivr.net/npm/typed.js@2.0.12"
-         src="script.js"
-    </script>
+    <section class="about">
+        <div class="about-img">
+            <img src="hero.jpg" alt="">
+        </div>
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <h3>Telelcommunication systeme<span>engineer</span></h3>
+           <p>I am seeking a unique opportunity in the field of telecommunications engineering to work on designing and implementing innovative technical solutions that meet customer needs and enhance the efficiency and quality of communication networks. I aspire to develop my professional skills and contribute to achieving the company's goals by improving performance, ensuring optimal coverage, and providing advanced solutions using the latest technologies.</p>
+           <a href="#" class="btn-2">experience</a>
+        </div>
+    </section>
+
+    <section class="contact-from">
+        <h2 class="contact-me">contact <span>Me</span></h2>
+        <from action="#">
+            <div class="input-box">
+                <input type="text" placeholder="full name">
+                <input type="email" placeholder="email">
+            </div>
+            <div class="input-box">
+                <input type="number" placeholder="phone number">
+                <input type="text" placeholder="subject">
+            </div>
+
+            <textarea name="" id="" cols="30" rows="10" placeholder="your message"></textarea>
+            <input type="submit" value="send message" class="btn-1">
+        </from>
+    </section>
+
+    <footer class="footer">
+        <div class="social-icons">
+            <a href="#"><i class='bx bxl-facebook-circle'></i></a>
+            <a href="#" ><i class='bx bxl-twitter'></i></a>
+            <a href="#" ><i class='bx bxl-instagram'></i></a>
+            <a href="#" ><i class='bx bxl-linkedin'></i></a>
+
+        </div>
+        <ul class="list">
+            <li>
+                <a href="#" >FAQ</a>
+            </li>
+            <li>
+                <a href="#" >services</a>
+            </li>
+            <li>
+                <a href="#" >about me</a>
+            </li>
+            <li>
+                <a href="#" >contact</a>
+            </li>
+            <li>
+                <a href="#" >privacy policy</a>
+            </li>
+        </ul>
+
+        <p class="copyright">@2025 Ridha all right reserved</p>
+    </footer>
 </body>
-</html>
-
-
-
-
-
+</html>        
